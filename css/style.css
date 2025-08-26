@@ -4,3 +4,9 @@
     font-family: 'Poppins', 'sans-sarif';
     box-sizing: border-box;
 }
+
+body {
+    background: #607d8b;
+    color: #000;
+
+}
