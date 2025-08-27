@@ -14,10 +14,51 @@ body {
 #header {
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/hero-background.png);
-    background-size: contain;
+    background-image: url(../img/mirror.PNG);
+    background-size: 40% auto;
     background-repeat: no-repeat;
-    background-position: 400px center;
+    background-position: 70% 0;
     
     
+}
+
+.container {
+    padding: 10px 10%;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
 }
