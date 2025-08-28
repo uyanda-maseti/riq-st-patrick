@@ -133,5 +133,7 @@ nav ul li a:hover::after {
 }
 .tab-contents ul li span{
     color: #000;
-    font-size: 
+    font-weight: 600;
+    font-size: 14px;
+
 }
