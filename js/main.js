@@ -3,9 +3,9 @@ const tabcontents = document.getElementsByClassName("tab-contents");
 
 function opentab(tabname){
     for(tablink of tablinks){
-        tablink.classlist.remove('active-link');
+        tablink.classList.remove('active-link');
     }
     for(tabcontent of tabcontents){
-        tabcontent.classlist.remove('active-tab');
+        tabcontent.classList.remove('active-tab');
     }
 }
