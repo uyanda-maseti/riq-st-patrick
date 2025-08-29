@@ -263,3 +263,36 @@ nav ul li a:hover::after {
     background: #72c7ee;
     color: #fff;
 }
+
+/* ---------- Contact ---------- */
+.conatct-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #fff;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #000;
+    transform: translateY(-5px);
+}
