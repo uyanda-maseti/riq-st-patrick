@@ -345,7 +345,7 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     #header .container img{
-        border: 1px solid #000;
+        
         margin-right: 30px;
     }
     #header{
@@ -364,6 +364,7 @@ nav .fa-solid{
     nav .fa-solid{
         display: block;
         font-size: 25px;
+        
         
     }
     nav ul{
