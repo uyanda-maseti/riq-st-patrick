@@ -348,11 +348,7 @@ nav .fa-solid{
         
         margin-right: 30px;
     }
-    #header{
-        background: url(../img/phone.png);
-        background-repeat: no-repeat;
-        background-position: 70% 20%;
-    }
+    
     .header-text{
         margin-top: 100%;
         font-size: 16px;
