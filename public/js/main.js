@@ -38,3 +38,10 @@ function closeMenu(){
       })
       .catch(error => console.error('Error!', error.message))
   })
+
+function openWhatsApp() {
+    let number = '+27798316096'
+    let message = 'Hello, I would like to build a website for my business. Can you help me?'
+    let url = `https://wa.me/${number}?text=${encodeURIComponent(message)}`
+    window.open(url, '_blank')
+}
