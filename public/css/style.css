@@ -18,7 +18,7 @@ body {
 #header {
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/mirror.PNG);
+    
     background-size: 30% auto;
     background-repeat: no-repeat;
     background-position: 70% 20%;
